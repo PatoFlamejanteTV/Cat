@@ -12,7 +12,7 @@
             Label1.Text = "I'm " & time & " km away from u :D"
             time -= 2
         Else
-            Timer1.Stop() ' Stop the timer when time reaches 0
+            Timer1.Stop()
             Label1.Visible = False
             MessageBox.Show("Hello, " & Environment.UserName & " ;)")
             MessageBox.Show("I planted 2.7 kilograms of C4 around your house :P")
